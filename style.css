@@ -6,6 +6,17 @@
     height: 40px;
     background-color:black;
     padding-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius:8px;
+    background-color: black;
+    box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
+    transition: box-shadow 0.3s ease;
+    color: cornflowerblue;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    font-style: helvetica; sans-serif;
     
 
 }
@@ -16,17 +27,20 @@
     font-style: helvetica; sans-serif;
     font-size: 20px;
     font-weight: 800;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
 }
 #menu a:hover{
       display: inline-block;
-    padding: 10px 20px;
+    padding: 150x 150px;
     border-radius:8px;
     background-color: black;
     box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
-    transition: box-shadow 0.3s ease;
-    color:blue;
+    transition: box-shadow 0.5s ease;
+    color: black;
+    font-size: 30px;
+    background-image:url(A.IMAGE/Avengers.bg.png);
 }
 h1{
     display: inline-block;
@@ -51,10 +65,13 @@ body{
 
 }
 .image-gallery{
-    display: gallery;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 10px;
     padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
+    transition: box-shadow 0.3s ease;
 }
 .image-gallery img{
     width: 100%;
@@ -63,3 +80,15 @@ body{
     box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
     transition: box-shadow 0.3s ease;
 }
+#header{
+    text-align: center;
+    background-image:url(A.IMAGE/Avengers.bg.png);
+    background-repeat: repeat-x;
+
+}
+.logo{
+    display: inline-block;
+    
+}  
+
+
